@@ -1,5 +1,6 @@
 package com.design.pattern.observer.me;
 
+import com.design.pattern.observer.common.PushContent;
 import org.junit.Assert;
 import org.junit.Test;
 
