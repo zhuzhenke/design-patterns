@@ -19,3 +19,5 @@ jdk implementation of many observers to one subject
 
 ### [abstract factory](https://github.com/zhuzhenke/design-patterns/tree/master/factory-abstractfactory/src/main/java/com/design/pattern/factory/abstractfactory)
 
+## [adapter factory](https://github.com/zhuzhenke/design-patterns/tree/master/adapter/src/main/java/com/design/pattern/adapter)
+
