@@ -15,6 +15,7 @@
         <module>factory-factorymethod</module>
         <module>factory-abstractfactory</module>
         <module>adapter</module>
+        <module>facade</module>
     </modules>
 
     <dependencies>

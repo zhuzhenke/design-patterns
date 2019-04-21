@@ -21,3 +21,5 @@ jdk implementation of many observers to one subject
 
 ## [adapter factory](https://github.com/zhuzhenke/design-patterns/tree/master/adapter/src/main/java/com/design/pattern/adapter)
 
+## [facade factory](https://github.com/zhuzhenke/design-patterns/tree/master/facade/src/main/java/com/design/pattern/facade)
+
