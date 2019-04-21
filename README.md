@@ -11,6 +11,8 @@ jdk implementation of many observers to one subject
 
 ## [decorator pattern](https://github.com/zhuzhenke/design-patterns/tree/master/decorator/src/main/java/com/design/pattern/decorator)
 
+## factory pattern
+
 ### [simple factory pattern](https://github.com/zhuzhenke/design-patterns/tree/master/factory-simplefactory/src/main/java/com/design/pattern/factory/simplefactory)
 
 ### [factory method pattern](https://github.com/zhuzhenke/design-patterns/tree/master/factory-factorymethod/src/main/java/com/design/pattern/factory/factorymethod)
