@@ -11,6 +11,9 @@
     <modules>
         <module>observer</module>
         <module>decorator</module>
+        <module>factory-simplefactory</module>
+        <module>factory-factorymethod</module>
+        <module>factory-abstractfactory</module>
     </modules>
 
     <dependencies>
