@@ -17,6 +17,7 @@
         <module>adapter</module>
         <module>facade</module>
         <module>singleton</module>
+        <module>command</module>
     </modules>
 
     <dependencies>

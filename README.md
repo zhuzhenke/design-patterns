@@ -25,3 +25,5 @@ jdk implementation of many observers to one subject
 
 ## [singleton factory](https://github.com/zhuzhenke/design-patterns/tree/master/singleton/src/main/java/com/design/pattern/singleton)
 
+## [command factory](https://github.com/zhuzhenke/design-patterns/tree/master/command/src/main/java/com/design/pattern/command)
+
