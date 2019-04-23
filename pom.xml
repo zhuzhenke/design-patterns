@@ -16,6 +16,7 @@
         <module>factory-abstractfactory</module>
         <module>adapter</module>
         <module>facade</module>
+        <module>singleton</module>
     </modules>
 
     <dependencies>

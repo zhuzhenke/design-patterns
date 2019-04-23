@@ -23,3 +23,5 @@ jdk implementation of many observers to one subject
 
 ## [facade factory](https://github.com/zhuzhenke/design-patterns/tree/master/facade/src/main/java/com/design/pattern/facade)
 
+## [singleton factory](https://github.com/zhuzhenke/design-patterns/tree/master/singleton/src/main/java/com/design/pattern/singleton)
+
