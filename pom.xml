@@ -18,6 +18,7 @@
         <module>facade</module>
         <module>singleton</module>
         <module>command</module>
+        <module>template</module>
     </modules>
 
     <dependencies>
