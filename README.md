@@ -29,3 +29,5 @@ jdk implementation of many observers to one subject
 
 ## [template factory](https://github.com/zhuzhenke/design-patterns/tree/master/template/src/main/java/com/design/pattern/template)
 
+## [strategy factory](https://github.com/zhuzhenke/design-patterns/tree/master/strategy/src/main/java/com/design/pattern/strategy)
+
