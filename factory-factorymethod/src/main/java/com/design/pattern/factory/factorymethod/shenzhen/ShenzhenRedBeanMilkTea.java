@@ -11,12 +11,8 @@ public class ShenzhenRedBeanMilkTea extends MilkTea {
 
 
     public ShenzhenRedBeanMilkTea(String store, String name) {
-        super(name);
+        super(store + " " + name);
         System.out.println("this is from " + store);
 
-    }
-
-    public ShenzhenRedBeanMilkTea(String name) {
-        super(name);
     }
 }

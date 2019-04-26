@@ -16,9 +16,9 @@ public class BeijingSimpleMilkTeaFactory {
     public MilkTea createMilkTea(String type) {
         MilkTea milkTea = null;
         if (MilkTeaTypeEnum.RedBeanMilkTea.name().equals(type)) {
-            milkTea = new ShenzhenRedBeanMilkTea(storeName, type);
+            milkTea = new BeijingRedBeanMilkTea(storeName, type);
         } else if (MilkTeaTypeEnum.CoconutMilkTea.name().equals(type)) {
-            milkTea = new ShenzhenRedBeanMilkTea(storeName, type);
+            milkTea = new BeijingRedBeanMilkTea(storeName, type);
         }
         return milkTea;
     }
