@@ -29,7 +29,7 @@ jdk implementation of many observers to one subject
 #### 命令模式：将请求封装成对象，这可以让你使用不同的请求，队列或者日志请求来参数化其他对象。命令模式也可以支持撤销操作。
 
 - 命令模式将发出请求的对象和执行请求的对象解耦
-- 在北解耦的两者之间是通过命令对象进行沟通的。命令对象封装了接收者和一个或一组动作
+- 在被解耦的两者之间是通过命令对象进行沟通的。命令对象封装了接收者和一个或一组动作
 - 调用者通过调用命令对象的execute()发出请求，这会使得接收者的动作被调用
 - 调用者可以接受命令当做参数，甚至在运行时动态地进行
 - 命令可以支持撤销，做法是实现一个undo方法来回到execute()被执行前的状态
@@ -42,3 +42,16 @@ jdk implementation of many observers to one subject
 
 ## [strategy factory](https://github.com/zhuzhenke/design-patterns/tree/master/strategy/src/main/java/com/design/pattern/strategy)
 
+
+
+
+## 设计原则
+- 封装变化
+- 多用组合，少用继承
+- 针对接口编程，不针对实现编程
+- 为交互对象之间的松耦合设计而努力
+- 类应该对扩展开放，对修改关闭
+- 依赖抽象，不要依赖具体类
+
+
+以上说明解释摘录/参考自[《Head First设计模式》](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=sr_1_1?crid=F3WIMSVXWGV5&keywords=head+first+design+patterns&qid=1556374615&s=gateway&sprefix=Head+First+%2Caps%2C1235&sr=8-1)
