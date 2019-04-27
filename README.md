@@ -1,6 +1,6 @@
 # design-patterns
 
-## [observer pattern](https://blog.csdn.net/codingtu/article/details/89392812)
+## [observer pattern 观察者模式](https://blog.csdn.net/codingtu/article/details/89392812)
 [my implementation](https://github.com/zhuzhenke/design-patterns/tree/master/observer/src/main/java/com/design/pattern/observer/me)
 
  my implementation of many observers to many subjects
@@ -9,23 +9,23 @@
 
 jdk implementation of many observers to one subject
 
-## [decorator pattern](https://github.com/zhuzhenke/design-patterns/tree/master/decorator/src/main/java/com/design/pattern/decorator)
+## [decorator pattern 装饰者模式](https://github.com/zhuzhenke/design-patterns/tree/master/decorator/src/main/java/com/design/pattern/decorator)
 
 ## factory pattern
 
-### [simple factory pattern](https://github.com/zhuzhenke/design-patterns/tree/master/factory-simplefactory/src/main/java/com/design/pattern/factory/simplefactory)
+### [simple factory pattern 简单工厂模式](https://github.com/zhuzhenke/design-patterns/tree/master/factory-simplefactory/src/main/java/com/design/pattern/factory/simplefactory)
 
-### [factory method pattern](https://github.com/zhuzhenke/design-patterns/tree/master/factory-factorymethod/src/main/java/com/design/pattern/factory/factorymethod)
+### [factory method pattern 工厂方法模式](https://github.com/zhuzhenke/design-patterns/tree/master/factory-factorymethod/src/main/java/com/design/pattern/factory/factorymethod)
 
-### [abstract factory](https://github.com/zhuzhenke/design-patterns/tree/master/factory-abstractfactory/src/main/java/com/design/pattern/factory/abstractfactory)
+### [abstract factory 抽象工厂模式](https://github.com/zhuzhenke/design-patterns/tree/master/factory-abstractfactory/src/main/java/com/design/pattern/factory/abstractfactory)
 
-## [adapter factory](https://github.com/zhuzhenke/design-patterns/tree/master/adapter/src/main/java/com/design/pattern/adapter)
+## [adapter factory 适配器模式](https://github.com/zhuzhenke/design-patterns/tree/master/adapter/src/main/java/com/design/pattern/adapter)
 
-## [facade factory](https://github.com/zhuzhenke/design-patterns/tree/master/facade/src/main/java/com/design/pattern/facade)
+## [facade factory 外观模式](https://github.com/zhuzhenke/design-patterns/tree/master/facade/src/main/java/com/design/pattern/facade)
 
-## [singleton factory](https://github.com/zhuzhenke/design-patterns/tree/master/singleton/src/main/java/com/design/pattern/singleton)
+## [singleton factory 单例模式](https://github.com/zhuzhenke/design-patterns/tree/master/singleton/src/main/java/com/design/pattern/singleton)
 
-## [command factory](https://github.com/zhuzhenke/design-patterns/tree/master/command/src/main/java/com/design/pattern/command)
+## [command factory 命令模式](https://github.com/zhuzhenke/design-patterns/tree/master/command/src/main/java/com/design/pattern/command)
 #### 命令模式：将请求封装成对象，这可以让你使用不同的请求，队列或者日志请求来参数化其他对象。命令模式也可以支持撤销操作。
 
 - 命令模式将发出请求的对象和执行请求的对象解耦
@@ -38,10 +38,10 @@ jdk implementation of many observers to one subject
 - 命令也可以用来实现日志和事务系统
 
 
-## [template factory](https://github.com/zhuzhenke/design-patterns/tree/master/template/src/main/java/com/design/pattern/template)
+## [template factory 模板方法模式](https://github.com/zhuzhenke/design-patterns/tree/master/template/src/main/java/com/design/pattern/template)
 
-## [strategy factory](https://github.com/zhuzhenke/design-patterns/tree/master/strategy/src/main/java/com/design/pattern/strategy)
-
+## [strategy factory 策略模式](https://github.com/zhuzhenke/design-patterns/tree/master/strategy/src/main/java/com/design/pattern/strategy)
+#### 策略模式：定义了算法族，分别封装起来，让它们之间可以相互替换，此模式让算法的变化独立于使用算法的客户。
 
 
 
