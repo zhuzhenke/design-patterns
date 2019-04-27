@@ -14,6 +14,7 @@ public class AbstractFactoryTest {
         milkTeaStore.buyMilkTea(MilkTeaTypeEnum.RedBeanMilkTea.name());
         milkTeaStore.buyMilkTea(MilkTeaTypeEnum.CoconutMilkTea.name());
 
+        System.out.println();
         milkTeaStore = new BeijingMilkTeaStore(new BeijingSimpleMilkTeaFactory());
         milkTeaStore.buyMilkTea(MilkTeaTypeEnum.RedBeanMilkTea.name());
         milkTeaStore.buyMilkTea(MilkTeaTypeEnum.CoconutMilkTea.name());

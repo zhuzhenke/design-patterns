@@ -1,5 +1,6 @@
 package com.design.pattern.factory.abstractfactory.milktea;
 
+import com.design.pattern.factory.abstractfactory.MaterialFactory;
 import com.design.pattern.factory.abstractfactory.MilkTea;
 
 /**
@@ -8,14 +9,19 @@ import com.design.pattern.factory.abstractfactory.MilkTea;
  */
 public class ShenzhenCoconutMilkTea extends MilkTea {
 
+    private MaterialFactory materialFactory;
 
-    public ShenzhenCoconutMilkTea(String store, String name) {
+    @Override
+    public void prepare() {
+        System.out.println("preparing materials with" + this.getClass().getSimpleName());
+        super.milk = materialFactory.getMilk();
+        super.tea = materialFactory.getTea();
+    }
+
+    public ShenzhenCoconutMilkTea(String store, String name, MaterialFactory materialFactory) {
         super(name);
         System.out.println("this is from " + store);
-
+        this.materialFactory = materialFactory;
     }
 
-    public ShenzhenCoconutMilkTea(String name) {
-        super(name);
-    }
 }

@@ -1,20 +1,25 @@
 package com.design.pattern.factory.abstractfactory;
 
+import com.design.pattern.factory.abstractfactory.material.Milk;
+import com.design.pattern.factory.abstractfactory.material.Tea;
+
 /**
  * @author zhuzhenke
  * @date 2019/4/21
  */
-public class MilkTea {
+public abstract class MilkTea {
 
     private String name;
+
+    protected Milk milk;
+
+    protected Tea tea;
 
     public MilkTea(String name) {
         this.name = name;
     }
 
-    public void prepare() {
-        System.out.println(name + " prepare");
-    }
+    public abstract void prepare();
 
     public void addMaterials() {
         System.out.println(name + " addMaterials");

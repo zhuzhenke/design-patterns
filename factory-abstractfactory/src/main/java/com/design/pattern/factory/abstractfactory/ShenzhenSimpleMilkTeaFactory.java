@@ -1,9 +1,5 @@
 package com.design.pattern.factory.abstractfactory;
 
-import com.design.pattern.factory.abstractfactory.material.Milk;
-import com.design.pattern.factory.abstractfactory.material.Tea;
-import com.design.pattern.factory.abstractfactory.material.shenzhen.ShenzhenMilk;
-import com.design.pattern.factory.abstractfactory.material.shenzhen.ShenzhenTea;
 import com.design.pattern.factory.abstractfactory.milktea.ShenzhenRedBeanMilkTea;
 import com.design.pattern.factory.abstractfactory.types.MilkTeaTypeEnum;
 
@@ -17,12 +13,13 @@ public class ShenzhenSimpleMilkTeaFactory {
 
     public MilkTea createMilkTea(String type) {
         MilkTea milkTea = null;
-        Milk milk = new ShenzhenMilk();
-        Tea tea = new ShenzhenTea();
+
+        MaterialFactory materialFactory = new ShenzhenMaterialFactory();
+
         if (MilkTeaTypeEnum.RedBeanMilkTea.name().equals(type)) {
-            milkTea = new ShenzhenRedBeanMilkTea(storeName, type);
+            milkTea = new ShenzhenRedBeanMilkTea(storeName, type, materialFactory);
         } else if (MilkTeaTypeEnum.CoconutMilkTea.name().equals(type)) {
-            milkTea = new ShenzhenRedBeanMilkTea(storeName, type);
+            milkTea = new ShenzhenRedBeanMilkTea(storeName, type, materialFactory);
         }
         return milkTea;
     }
