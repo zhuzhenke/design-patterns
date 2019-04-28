@@ -1,6 +1,8 @@
 package com.design.pattern.adapter;
 
 /**
+ * 类适配器实现
+ *
  * @author zhuzhenke
  * @date 2019/4/21
  */
