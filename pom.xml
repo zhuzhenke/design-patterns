@@ -20,6 +20,7 @@
         <module>command</module>
         <module>template</module>
         <module>strategy</module>
+        <module>proxy</module>
     </modules>
 
     <dependencies>

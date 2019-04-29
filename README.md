@@ -122,6 +122,23 @@ jdk implementation of many observers to one subject
 ## [strategy factory 策略模式](https://github.com/zhuzhenke/design-patterns/tree/master/strategy/src/main/java/com/design/pattern/strategy)
 #### 策略模式：定义了算法族，分别封装起来，让它们之间可以相互替换，此模式让算法的变化独立于使用算法的客户。
 
+## [proxy factory 代理模式](https://github.com/zhuzhenke/design-patterns/tree/master/proxy/src/main/java/com/design/pattern/proxy)
+#### 代理模式：为另外一个对象提供一个替身或占位符已控制对这个对象的访问。
+
+- 使用代理模式创建代表，让代表对象控制某对象的访问，被代理的对象可以是远程的对象(RMI)、创建开销大的对象(Image)或需要安全控制的对象
+- 动态代理：不需要对每个真实执行类创建一个代理执行类，只需要在用到的时候动态创建，这就是动态代理
+- InvocationHandler根本就不是proxy，它只是一个帮助proxy的类，proxy会把调用转发给它处理。Proxy本身是利用静态的Proxy.newProxyInstance()方法在运行时动态地创建的
+- Proxy.isProxyClass(Class<?> cl)可以判断某个类是否是动态代理类
+- 代理模式为另外一个对象提供代表，以便控制客户对对象的访问，管理访问的方式有许多种
+- 远程代理管理远程对象之间的的交互
+- 虚拟代理控制访问实例化开销大的对象
+- 保护代理基于调用者控制对对象方法的访问
+- 代理模式有许多变体，例如：缓存代理、同步代理、防火墙代理和写入时复制代理
+- 代理在结构上类似装饰者，但是目的不同
+- 装饰者模式为对象加上行为，而代理则是访问控制
+- Java内置的代理支持，可以根据需要建立动态代理，并将所有调用分配到所选的处理器
+- 就和其他的包装者一样，代理会造成你的设计中，类的数目增多
+
 
 
 ## 设计原则
