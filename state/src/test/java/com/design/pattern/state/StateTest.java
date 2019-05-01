@@ -1,6 +1,7 @@
 package com.design.pattern.state;
 
 import com.design.pattern.state.v1.CandyMachine;
+import com.design.pattern.state.v2.CandyMachineContext;
 import org.junit.Test;
 
 /**
@@ -26,6 +27,52 @@ public class StateTest {
 
         //abnormal action
         System.out.println("abnormal action ......");
+        candyMachine.turnCrank();
+        candyMachine.printStateAndCandyCount();
+
+        //normal action
+        System.out.println("normal action ......");
+        candyMachine.insertCoin();
+        candyMachine.turnCrank();
+        candyMachine.printStateAndCandyCount();
+
+        //normal action but sold out
+        System.out.println("normal action but sold out ......");
+        candyMachine.insertCoin();
+        candyMachine.printStateAndCandyCount();
+    }
+
+    @Test
+    public void testStateV2() {
+        CandyMachineContext candyMachine = new CandyMachineContext(4);
+        candyMachine.printStateAndCandyCount();
+
+        //normal action
+        System.out.println("normal action ......");
+        candyMachine.insertCoin();
+        candyMachine.turnCrank();
+        candyMachine.printStateAndCandyCount();
+
+        //return action
+        System.out.println("return action ......");
+        candyMachine.insertCoin();
+        candyMachine.returnCoin();
+        candyMachine.printStateAndCandyCount();
+
+        //abnormal action
+        System.out.println("abnormal action ......");
+        candyMachine.turnCrank();
+        candyMachine.printStateAndCandyCount();
+
+        //normal action
+        System.out.println("normal action ......");
+        candyMachine.insertCoin();
+        candyMachine.turnCrank();
+        candyMachine.printStateAndCandyCount();
+
+        //normal action
+        System.out.println("normal action ......");
+        candyMachine.insertCoin();
         candyMachine.turnCrank();
         candyMachine.printStateAndCandyCount();
 

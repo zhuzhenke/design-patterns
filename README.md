@@ -141,7 +141,18 @@ jdk implementation of many observers to one subject
 
 
 ## [state factory 状态模式](https://github.com/zhuzhenke/design-patterns/tree/master/state/src/main/java/com/design/pattern/state)
-#### 状态模式：为另外一个对象提供一个替身或占位符已控制对这个对象的访问。
+#### 状态模式：状态模式允许对象在内部状态改变时改变它的行为，对象看起来好像修改了它的类
+
+- 状态模式允许一个对象基于内部状态而拥有不同的行为
+- 和程序状态机(PSM)不同，状态模式用类代表状态
+- Context会将行为委托给当前状态对象
+- 通过将每个状态封装进一个类，我们把以后需要做的任何改变局部化了
+- 状态模式和策略模式有相同的类图，但是它们的意图不同
+- 策略模式通常会用行为或算法来配置Context类
+- 状态模式允许Context随着状态的改变而改变行为
+- 状态转化可以由State类或Context类控制
+- 使用状态模式通常会导致设计类中的数目大量增加
+- 状态类可以被多个Context实例共享
 
 
 ## 设计原则
