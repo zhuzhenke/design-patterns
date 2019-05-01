@@ -21,6 +21,7 @@
         <module>template</module>
         <module>strategy</module>
         <module>proxy</module>
+        <module>state</module>
     </modules>
 
     <dependencies>

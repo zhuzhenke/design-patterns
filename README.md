@@ -140,6 +140,9 @@ jdk implementation of many observers to one subject
 - 就和其他的包装者一样，代理会造成你的设计中，类的数目增多
 
 
+## [state factory 状态模式](https://github.com/zhuzhenke/design-patterns/tree/master/state/src/main/java/com/design/pattern/state)
+#### 状态模式：为另外一个对象提供一个替身或占位符已控制对这个对象的访问。
+
 
 ## 设计原则
 - 封装变化
