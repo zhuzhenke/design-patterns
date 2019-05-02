@@ -4,6 +4,13 @@
 [my implementation](https://github.com/zhuzhenke/design-patterns/tree/master/observer/src/main/java/com/design/pattern/observer/me)
 #### 观察者模式：在对象之间定义一对多的依赖，这样一来，当一个对象改变状态，依赖它的对象都会收到通知，并自动更新。
 
+my implementation of many observers to many subjects
+
+[jdk implementation](https://github.com/zhuzhenke/design-patterns/tree/master/observer/src/main/java/com/design/pattern/observer/jdk)
+
+jdk implementation of many observers to one subject
+
+
 - 观察者模式定义了对象之间一对多的关系
 - 主题(也就是可观察者)用一个共同的接口来更新观察者
 - 观察者和可观察者之间用松耦合方式结合，可观察者不知道观察者的细节，只知道观察者实现了观察者接口
@@ -14,12 +21,6 @@
 - 如果有必要的话，可以实现自己的Observable，这并不难，不要害怕。(例如需要实现多对多关系时)
 - Swing大量观察者模式，许多GUI框架也是如此
 - 此模式也被应用在许多地方，例如JavaBeans、RMI
-
- my implementation of many observers to many subjects
-
-[jdk implementation](https://github.com/zhuzhenke/design-patterns/tree/master/observer/src/main/java/com/design/pattern/observer/jdk)
-
-jdk implementation of many observers to one subject
 
 ## [decorator pattern 装饰者模式](https://github.com/zhuzhenke/design-patterns/tree/master/decorator/src/main/java/com/design/pattern/decorator)
 #### 装饰者模式动态地将责任附加到对象上，若要扩展功能，装饰者提供了比集成更有弹性的替代方案。
