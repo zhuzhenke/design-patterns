@@ -154,6 +154,14 @@ jdk implementation of many observers to one subject
 - 使用状态模式通常会导致设计类中的数目大量增加
 - 状态类可以被多个Context实例共享
 
+## [iterator factory 迭代器模式](https://github.com/zhuzhenke/design-patterns/tree/master/iterator/src/main/java/com/design/pattern/iterator)
+#### 迭代器模式：提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的表示。
+
+- 迭代器允许访问聚合的元素，而不需要暴露它的内部结构
+- 迭代器将遍历聚合的工作封装在一个对象中
+- 当使用迭代器的时候，我们依赖聚合提供遍历
+- 迭代器提供了一个通用的接口，让我们遍历聚合的项，当我们编码使用聚合的项时，就可以使用多态机制
+
 
 ## 设计原则
 - 封装变化
@@ -164,6 +172,7 @@ jdk implementation of many observers to one subject
 - 依赖抽象，不要依赖具体类
 - "最少知识"原则：只和你的密友谈话（减少对象之间的交互）
 - 好莱坞原则：别调用(打电话给)我们，我们会调用(打电话给)你
+- 我们应该努力让一个类只分配一个责任
 
 
 以上说明解释摘录/参考自[《Head First设计模式》](https://www.amazon.cn/dp/B0011FBU34/)
