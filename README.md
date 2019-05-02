@@ -162,6 +162,13 @@ jdk implementation of many observers to one subject
 - 当使用迭代器的时候，我们依赖聚合提供遍历
 - 迭代器提供了一个通用的接口，让我们遍历聚合的项，当我们编码使用聚合的项时，就可以使用多态机制
 
+## [composite factory 组合模式](https://github.com/zhuzhenke/design-patterns/tree/master/composite/src/main/java/com/design/pattern/composite)
+#### 组合模式：允许你将对象组成树形结构来表现"整体/部分"的层次结构。组合能让客户以一致的方式处理个别对象和对象组合
+
+- 组合模式提供一个结构，可同时包含个别对象和组合对象
+- 组合模式允许客户对个别对象以及组合对象一视同仁
+- 组合结构内的任意对象成为组件，组件可以是组合，也可以是叶节点
+- 在实现组合模式时，有许多设计上的折衷。你要根据需要平衡透明性和安全性
 
 ## 设计原则
 - 封装变化

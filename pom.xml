@@ -23,6 +23,7 @@
         <module>proxy</module>
         <module>state</module>
         <module>iterator</module>
+        <module>composite</module>
     </modules>
 
     <dependencies>
